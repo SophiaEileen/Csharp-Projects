@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["VS HTML Assignment"] = "Home page";
+}
+
+  <div class="text-center">
+    <h1 class="display-4">The Cure's Friday I'm In Love</h1>
+    <p>
+      <iframe width="640" height="480" src="https://www.youtube.com/embed/ucX9hVCQT_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+
+    <p>
+      <button onclick="myMove()">Click Me</button>
+    </p>
+
+    <div id="myContainer">
+      <div id="myAnimation"></div>
+    </div>
+  </div>
